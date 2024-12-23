@@ -1,15 +1,22 @@
 PODS:
-  - MyAppTestKit (0.1.1)
+  - MyAppTestKit (0.1.1):
+    - SnapKit
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - MyAppTestKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   MyAppTestKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyAppTestKit: 4bf982167b888f7dfbb4c912c59fc344df7c9fd6
+  MyAppTestKit: 421af3591c2a66b64000d098c8a3b262f94677e0
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: 76f60b6c543b5e0c9776007785eb915ee95330f4
 
