@@ -1,0 +1,6 @@
+framework module MyAppTestKit {
+  umbrella header "MyAppTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
